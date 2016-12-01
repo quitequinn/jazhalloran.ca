@@ -1,0 +1,17 @@
+// Colors
+@import "colors/*";
+
+// Personal Utils
+@import "q_utils/*";
+
+// Bootstrap
+@import "bootstrap4/bootstrap";
+
+// Global Style
+@import "global";
+
+// Project Specific
+@import "partials/*";
+
+// Overrides
+@import "overrides";

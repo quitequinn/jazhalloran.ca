@@ -1,0 +1,192 @@
+
+/**
+ * Highlighting colors
+//  */
+// ::selection {
+// 	color: $color-white;
+// 	background: $color-primary;
+// }
+
+body, html{
+	min-height: 100%;
+	background: $white;
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba($black, 0.25);
+    transition: all $fast;
+    &:hover{
+    	transition: all $fast;
+    	background-color: rgba($black, 1);
+    }
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
+
+::scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: transparent;
+}
+::scrollbar-thumb {
+    background-color: rgba($black, 0.25);
+    transition: all $fast;
+    &:hover{
+    	transition: all $fast;
+    	background-color: rgba($black, 1);
+    }
+}
+::scrollbar-track {
+    background-color: transparent;
+}
+::scrollbar-track-piece {
+    background-color: transparent;
+}
+
+
+::-moz-selection { 
+	background: $black;
+	color: $white; 
+}
+::selection { 
+	background: $black;
+	color: $white; 
+}
+
+a, a:hover, a:visited, a:focus, a:active{
+	text-decoration: none;	
+	color: $brand-primary; 
+	@include user-select-none();
+}
+
+h1, .h1{
+	font-family: $font-family-sans-serif;
+    line-height: 1.4;
+	$size: 60px;
+	font-size: $size;
+	@include m(min,$sm) {
+		font-size: $size*1.25;
+	}
+	@include m(min,$md) {
+		font-size: $size*1.5;
+	}
+	@include m(min,$lg) {
+		font-size: $size*1.75;
+	}
+	@include m(min,$xl) {
+		font-size: $size*2;
+	}
+}
+h2, .h2{
+	border-top: 5px solid;
+    margin-top: 1.5rem;
+	padding-top: 0.5rem;
+	font-weight: 700;
+	$size: 20px;
+	font-size: $size*1.5;
+    line-height: 1.4; 
+	@include m(min,$sm) {
+		font-size: $size*1.5;
+	}
+	@include m(min,$lg) {
+		font-size: $size*1.75;
+	}
+	@include m(min,$xl) {
+		font-size: $size*2;
+	}
+}
+h3, .h3{
+	font-weight: 100;
+    line-height: 1.4;
+	font-family: "futura-pt-condensed";
+	$size: 40px;
+	font-size: $size;
+	@include m(min,$sm) {
+		font-size: $size*1.25;
+	}
+	@include m(min,$md) {
+		font-size: $size*1.4;
+	}
+	@include m(min,$lg) {
+		font-size: $size*1.7;
+	}
+	@include m(min,$xl) {
+		font-size: $size*1.8;
+	}
+}
+h4, .h4{
+    font-weight: 400;
+    margin-top: 1rem;    
+	$size: 18px;
+	font-size: $size*1.5;
+	@include m(min,$sm) {
+		font-size: $size*1.5;
+	}
+	@include m(min,$lg) {
+		font-size: $size*1.75;
+	}
+	@include m(min,$xl) {
+		font-size: $size*2;
+	}
+    line-height: 1.6;
+    font-family: $font-family-sans-serif;
+}
+h5, .h5 p, .h5{
+    margin-top: 1rem;
+	padding-top: .5rem;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: $font-family-sans-serif;
+    text-transform: capitalize;
+}
+.h5-bold{
+    margin-top: 1rem;
+	padding-top: .5rem;
+	text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: .025em;
+    font-weight: 900;
+    font-family: $font-family-base;
+}
+h6, .h6{
+	border-top: 1px solid;
+    margin-top: 1rem;
+	padding-top: .5rem;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: $font-family-sans-serif;
+}
+p{
+    max-width: 650px;
+    font-family: $font-family-sans-serif;
+    line-height: 1.6;
+}
+
+#page{
+	overflow: hidden;
+}
+
+.el-icon-remove, .el-icon-pencil, .el-icon-forward, .el-icon-play{
+	font-size: 20px!important;
+    line-height: 1.5;
+    display: inline-block;
+	@include pointer;
+	@include user-select-none();
+	&:before{
+		font-size: 1.5em;
+		@include m(min, $xxl){
+			font-size: 2em;
+		}
+	}
+}
