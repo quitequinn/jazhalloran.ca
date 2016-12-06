@@ -1,0 +1,19 @@
+@mixin tile-count(){
+	@extend .h5;
+	position: absolute;
+	top: 6rem;
+	right: 5px;
+	@include m(min, $bp-medium){
+		top: initial;
+		position: fixed;
+		bottom: 1rem;
+		right: 15px;
+	}
+	.count {
+		position: relative;
+		top: -10px;
+	}
+	.divider {
+		font-size: 47px;
+	}
+}
