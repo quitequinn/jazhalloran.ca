@@ -4,7 +4,7 @@
 
 a, a:link, a:visited{
  	@include pointer;
- 	color: rgba($color-white, $opacity-link);
+ 	color: $color-black;
  	transition: all $fast;
 }
 a:focus, a:active{
@@ -12,7 +12,7 @@ a:focus, a:active{
 }
 a, a:hover, a:focus, a:active{
 	text-decoration: none;
- 	color: rgba($color-white, 1);
+ 	color: $color-black;
  	transition: all $fast;
 }
 html, body{
@@ -31,6 +31,21 @@ body{
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: $color-black;
+	&:after{
+		content: "";
+		display: block;
+		width: 6px;
+		height: 6px;
+		background: $color-black;
+		border-radius: 50%;
+		position: fixed;
+		left: 50%;
+		margin-left: -3px;
+		top: 50%;
+		margin-top: -3px;
+		animation: pulse2 1.2s linear infinite;
+
+	}
 }
 ::-moz-selection { 
 	background: $color-black; 

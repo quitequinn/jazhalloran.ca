@@ -11545,7 +11545,7 @@ a, a:link, a:visited {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  color: rgba(252, 255, 255, 0.75);
+  color: #003411;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -11558,7 +11558,7 @@ a:focus, a:active {
 /* line 13, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 a, a:hover, a:focus, a:active {
   text-decoration: none;
-  color: #fcffff;
+  color: #003411;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -11586,12 +11586,29 @@ body {
   color: #003411;
 }
 
-/* line 35, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 34, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+body:after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: #003411;
+  border-radius: 50%;
+  position: fixed;
+  left: 50%;
+  margin-left: -3px;
+  top: 50%;
+  margin-top: -3px;
+  -webkit-animation: pulse2 1.2s linear infinite;
+          animation: pulse2 1.2s linear infinite;
+}
+
+/* line 50, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 ::-moz-selection {
   background: #003411;
 }
 
-/* line 38, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 53, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 ::-moz-selection {
   background: #003411;
 }
@@ -11599,19 +11616,19 @@ body {
   background: #003411;
 }
 
-/* line 41, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 56, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 img.center {
   margin-right: auto;
   margin-left: auto;
   display: block;
 }
 
-/* line 46, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 61, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .centerWrap {
   display: table;
 }
 
-/* line 48, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 63, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .centerWrap .center {
   display: table-cell;
   margin-right: auto;
@@ -11619,7 +11636,7 @@ img.center {
   vertical-align: middle;
 }
 
-/* line 75, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 90, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
@@ -11628,13 +11645,13 @@ input:-webkit-autofill:active {
   transition: background-color 900000s ease-in-out 0s;
 }
 
-/* line 84, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 99, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 ::-moz-selection {
   background-color: rgba(0, 52, 17, 0.05) !important;
   color: #003411 !important;
 }
 
-/* line 88, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 103, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 ::-moz-selection {
   background-color: rgba(0, 52, 17, 0.05) !important;
   color: #003411 !important;
@@ -11644,105 +11661,105 @@ input:-webkit-autofill:active {
   color: #003411 !important;
 }
 
-/* line 92, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 107, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 ::-o-selection {
   background-color: rgba(0, 52, 17, 0.05) !important;
   color: #003411 !important;
 }
 
-/* line 96, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 111, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 ::-ms-selection {
   background-color: rgba(0, 52, 17, 0.05) !important;
   color: #003411 !important;
 }
 
-/* line 100, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 115, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 ::-webkit-selection {
   background-color: rgba(0, 52, 17, 0.05) !important;
   color: #003411 !important;
 }
 
-/* line 107, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 122, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 ::-webkit-input-placeholder {
   color: #fcffff !important;
 }
 
-/* line 110, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 125, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 input-placeholder {
   color: #fcffff !important;
 }
 
-/* line 113, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 128, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 :-moz-placeholder {
   color: #fcffff !important;
 }
 
-/* line 116, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 131, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 ::-moz-placeholder {
   color: #fcffff !important;
 }
 
-/* line 119, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 134, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 :-ms-input-placeholder {
   color: #fcffff !important;
 }
 
-/* line 122, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 137, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 #scrollspy {
   position: relative;
 }
 
-/* line 128, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 143, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .w100 {
   font-weight: 100;
 }
 
-/* line 131, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 146, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .w200 {
   font-weight: 200;
 }
 
-/* line 134, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 149, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .w300 {
   font-weight: 300;
 }
 
-/* line 137, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 152, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .w400 {
   font-weight: 400;
 }
 
-/* line 140, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 155, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .w500 {
   font-weight: 500;
 }
 
-/* line 143, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 158, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .w600 {
   font-weight: 600;
 }
 
-/* line 146, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 161, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .w700 {
   font-weight: 700;
 }
 
-/* line 149, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 164, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .w800 {
   font-weight: 800;
 }
 
-/* line 152, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 167, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .w900 {
   font-weight: 900;
 }
 
-/* line 155, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 170, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .italic {
   font-style: italic;
 }
 
-/* line 162, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 177, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .overflowText h2 {
   white-space: nowrap;
   overflow: hidden;
@@ -11762,7 +11779,7 @@ input-placeholder {
   height: auto;
 }
 
-/* line 177, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 192, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .overflowText:before {
   z-index: 99;
   content: '';
@@ -11779,12 +11796,12 @@ input-placeholder {
   background: linear-gradient(to right, rgba(0, 52, 17, 0) 0%, #003411 75%);
 }
 
-/* line 188, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 203, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .overflowText ::-webkit-scrollbar {
   display: none;
 }
 
-/* line 195, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 210, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 input, .form-control, .form-control:focus {
   background: none;
   border: none;
@@ -11793,7 +11810,7 @@ input, .form-control, .form-control:focus {
   height: auto;
 }
 
-/* line 206, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 221, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .icon-label {
   font-size: 15px;
   display: inline-block;
@@ -11803,7 +11820,7 @@ input, .form-control, .form-control:focus {
   position: relative;
 }
 
-/* line 215, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 230, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .nav-titles, .contact-title, .section-title {
   line-height: 1.5;
   font-size: 11px;
@@ -11813,7 +11830,7 @@ input, .form-control, .form-control:focus {
   padding-bottom: .5rem;
 }
 
-/* line 225, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 240, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .section-title {
   line-height: 1.5;
   margin-bottom: 0;
@@ -11822,13 +11839,13 @@ input, .form-control, .form-control:focus {
   width: 100%;
 }
 
-/* line 231, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 246, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .section-title + * {
   margin-top: 0;
   padding-top: 0;
 }
 
-/* line 238, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
+/* line 253, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_global.scss */
 .content-area {
   position: relative;
 }
@@ -12024,41 +12041,6 @@ h2, .h2, .h2 p {
   /* line 181, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_typography.scss */
   h2, .h2, .h2 p {
     font-size: 24.99px;
-  }
-}
-
-@media (min-width: 600px) {
-  /* line 181, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_typography.scss */
-  h2, .h2, .h2 p {
-    font-size: 33.6px;
-  }
-}
-
-@media (min-width: 768px) {
-  /* line 181, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_typography.scss */
-  h2, .h2, .h2 p {
-    font-size: 37.8px;
-  }
-}
-
-@media (min-width: 992px) {
-  /* line 181, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_typography.scss */
-  h2, .h2, .h2 p {
-    font-size: 42px;
-  }
-}
-
-@media (min-width: 1200px) {
-  /* line 181, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_typography.scss */
-  h2, .h2, .h2 p {
-    font-size: 42px;
-  }
-}
-
-@media (min-width: 1500px) {
-  /* line 181, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/components/_typography.scss */
-  h2, .h2, .h2 p {
-    font-size: 46.2px;
   }
 }
 
@@ -12456,62 +12438,44 @@ body {
   padding: 2rem;
 }
 
-/* line 3, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
+/* line 28, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
 body[background-slide="1"] {
-  background: -webkit-linear-gradient(left, #feef4a 0%, rgba(254, 239, 74, 0.1) 25%, #feef4a 50%, rgba(254, 239, 74, 0.1) 75%, rgba(254, 239, 74, 0.96) 99%, #feef4a 100%);
-  background: linear-gradient(to right, #feef4a 0%, rgba(254, 239, 74, 0.1) 25%, #feef4a 50%, rgba(254, 239, 74, 0.1) 75%, rgba(254, 239, 74, 0.96) 99%, #feef4a 100%);
-}
-
-/* line 6, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
-body[background-slide="2"] {
   background: -webkit-linear-gradient(left, rgba(254, 239, 74, 0.1) 0%, #feef4a 25%, rgba(254, 239, 74, 0.1) 80%);
   background: linear-gradient(to right, rgba(254, 239, 74, 0.1) 0%, #feef4a 25%, rgba(254, 239, 74, 0.1) 80%);
 }
 
-/* line 9, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
-body[background-slide="3"] {
+/* line 31, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
+body[background-slide="2"] {
   background: -webkit-linear-gradient(left, rgba(254, 239, 74, 0.2) 0%, #feef4a 25%, #feef4a 30%, rgba(254, 239, 74, 0.1) 35%, rgba(254, 239, 74, 0.1) 45%, #feef4a 75%, #feef4a 80%, rgba(254, 239, 74, 0.1) 85%, rgba(254, 239, 74, 0.1) 100%);
   background: linear-gradient(to right, rgba(254, 239, 74, 0.2) 0%, #feef4a 25%, #feef4a 30%, rgba(254, 239, 74, 0.1) 35%, rgba(254, 239, 74, 0.1) 45%, #feef4a 75%, #feef4a 80%, rgba(254, 239, 74, 0.1) 85%, rgba(254, 239, 74, 0.1) 100%);
 }
 
-/* line 12, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
-body[background-slide="4"] {
+/* line 34, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
+body[background-slide="3"] {
   background: -webkit-linear-gradient(left, rgba(254, 239, 74, 0.1) 0%, #feef4a 30%, #feef4a 50%, rgba(254, 239, 74, 0.3) 60%, rgba(254, 239, 74, 0.1) 100%);
   background: linear-gradient(to right, rgba(254, 239, 74, 0.1) 0%, #feef4a 30%, #feef4a 50%, rgba(254, 239, 74, 0.3) 60%, rgba(254, 239, 74, 0.1) 100%);
 }
 
-/* line 15, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
-body[background-slide="5"] {
+/* line 37, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
+body[background-slide="4"] {
   background: -webkit-linear-gradient(left, rgba(254, 239, 74, 0.1) 0%, #feef4a 25%, rgba(254, 239, 74, 0.1) 80%);
   background: linear-gradient(to right, rgba(254, 239, 74, 0.1) 0%, #feef4a 25%, rgba(254, 239, 74, 0.1) 80%);
 }
 
-/* line 18, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
-body[background-slide="6"] {
-  background: -webkit-linear-gradient(315deg, #feef4a 0%, rgba(254, 239, 74, 0.1) 25%, #feef4a 50%, rgba(254, 239, 74, 0.1) 75%, rgba(254, 239, 74, 0.96) 99%, #feef4a 100%);
-  background: linear-gradient(135deg, #feef4a 0%, rgba(254, 239, 74, 0.1) 25%, #feef4a 50%, rgba(254, 239, 74, 0.1) 75%, rgba(254, 239, 74, 0.96) 99%, #feef4a 100%);
-}
-
-/* line 21, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
-body[background-slide="7"] {
-  background: -webkit-radial-gradient(center ellipse, rgba(254, 239, 74, 0.1) 0%, #feef4a 25%, rgba(254, 239, 74, 0.1) 80%);
-  background: radial-gradient(ellipse at center, rgba(254, 239, 74, 0.1) 0%, #feef4a 25%, rgba(254, 239, 74, 0.1) 80%);
-}
-
-/* line 77, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
+/* line 99, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
 .container {
   width: 100% !important;
   max-width: 999999999999em !important;
 }
 
 @media (min-width: 350px) {
-  /* line 82, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
+  /* line 104, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
   .show-small {
     display: none;
   }
 }
 
-/* line 87, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
+/* line 109, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
 .intro-nav {
   padding-bottom: 4rem;
   -webkit-user-select: none;
@@ -12521,45 +12485,13 @@ body[background-slide="7"] {
 }
 
 @media (max-width: 600px) {
-  /* line 90, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
+  /* line 112, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
   .intro-nav h2 {
     margin-top: .5em;
   }
 }
 
-@media (min-width: 768px) {
-  /* line 96, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
-  .info-button {
-    text-align: right;
-  }
-}
-
-/* line 100, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
-.info-button .the-button {
-  padding: .5em;
-  margin: -.5em;
-  cursor: pointer;
-}
-
-/* line 106, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
-.info-reveal {
-  opacity: 0;
-  pointer-events: none;
-  max-height: 0px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-/* line 108, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
-.info-reveal.show {
-  opacity: 1;
-  pointer-events: initial;
-  max-height: 9999999px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-/* line 114, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
+/* line 140, /Users/qkeave/Desktop/Gits/jazhalloran.ca/src/sass/partials/_page.scss */
 .page-loaded .loader {
   opacity: 0;
   pointer-events: none;

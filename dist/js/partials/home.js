@@ -1,8 +1,8 @@
-$(".info-button .the-button").click(function(){
+// $(".info-button .the-button").click(function(){
 
-	$(".info-reveal").toggleClass('show');
-	event.stopPropagation();
-});
+// 	$(".info-reveal").toggleClass('show');
+// 	event.stopPropagation();
+// });
 
 // var dblClickCount = 1;
 
@@ -21,10 +21,18 @@ $(".info-button .the-button").click(function(){
 // });
 
 var clickCount = 0;
-$("html").click(function(){
+// $('li').each(function(){
+//     this.onclick = function() {
+//     	console.log('bingo');
+//     }
+// });
 
+$("body").click(function(){
+	
+	console.log('bingo');
+	    	
     clickCount++;
-    if (clickCount > 7) {
+    if (clickCount > 4) {
     	clickCount = 0;
     }
 	$("body").attr('background-slide', clickCount);

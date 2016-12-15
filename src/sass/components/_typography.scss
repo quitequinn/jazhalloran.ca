@@ -187,24 +187,24 @@ h2, .h2, .h2 p {
 	text-transform: uppercase;
 	padding-top: 0;
 	@include type-size-calc($size*.75);
-    @include m( min, $bp-xsmall ){ 
+	@include m( min, $bp-xsmall ){ 
 		@include type-size-calc-xsmall($size*.85);
-    }
-    @include m( min, $bp-small ){ 
-		@include type-size-calc-small($size);
-    }
-    @include m( min, $bp-medium ) {
-		@include type-size-calc-medium($size);
-    }
-	@include m( min, $bp-large ){ 
-		@include type-size-calc-large($size);
 	}
-	@include m( min, $bp-xlarge ){ 
-		@include type-size-calc-xlarge($size);
-	}
-    @include m( min, $bp-xxlarge ){ 
-		@include type-size-calc-xlarge($size * 1.1);
-    }
+	// @include m( min, $bp-small ){ 
+	// 	@include type-size-calc-small($size);
+	// }
+	// // @include m( min, $bp-medium ) {
+	// 	@include type-size-calc-medium($size);
+	// }
+	// @include m( min, $bp-large ){ 
+	// 	@include type-size-calc-large($size);
+	// }
+	// @include m( min, $bp-xlarge ){ 
+	// 	@include type-size-calc-xlarge($size);
+	// }
+	// @include m( min, $bp-xxlarge ){ 
+	// 	@include type-size-calc-xlarge($size * 1.1);
+	// }
 	&.alt-h2{
 		margin-top:.5em;
 		text-transform: none;
@@ -260,13 +260,13 @@ h5, .h5 {
 	// font-style: italic;
 	font-weight: 900;
 	font-size: 12px;
-  	line-height: 33px;
-  	letter-spacing: 0.12em;
+	line-height: 33px;
+	letter-spacing: 0.12em;
 	text-transform: uppercase;
-  	@include m(min, $bp-large){
-  		font-size: 15px;
-  		line-height: 39px;
-  	}
+	@include m(min, $bp-large){
+		font-size: 15px;
+		line-height: 39px;
+	}
 	
 }
 
@@ -280,7 +280,7 @@ h6, .h6{
 	padding-bottom: .5rem;
 	font-family: $font-primary;
 	font-size: $h6Size;
-    font-variant-numeric: lining-nums;
+	font-variant-numeric: lining-nums;
 	&.list-title, &.page-title{
 		text-transform: uppercase;
 		font-size: 100%;
@@ -334,7 +334,7 @@ a.h6 {
 	width: 100%;
 	transition: all $fast;
 	text-align: center;
-    font-variant-numeric: lining-nums;
+	font-variant-numeric: lining-nums;
 	@include m(min, $bp-medium){
 		text-align: left;
 		width: 160px;
@@ -343,7 +343,7 @@ a.h6 {
 		padding-top: 0;
 		padding-left: 0;
 	}
-   	.fa{
+	.fa{
 		padding-right: 1rem;
 	}
 	&:hover{
@@ -398,9 +398,9 @@ p, .p{
 		@include type-size-calc-xlarge($size*1.1);
 	}
 	a, a:link, a:visited{
-   	 	color: rgba($color-white, 0.5);
+		color: rgba($color-white, 0.5);
 		&:hover{
-   	 		color: rgba($color-white, 1);
+			color: rgba($color-white, 1);
 		}
 	}
 }
@@ -428,9 +428,9 @@ p, .p{
 		@include type-size-calc-xlarge($size*1.1);
 	}
 	a, a:link, a:visited{
-   	 	color: rgba($color-white, 0.5);
+		color: rgba($color-white, 0.5);
 		&:hover{
-   	 		color: rgba($color-white, 1);
+			color: rgba($color-white, 1);
 		}
 	}
 }

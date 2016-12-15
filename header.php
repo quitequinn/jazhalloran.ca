@@ -24,7 +24,7 @@
 		<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" type="image/ico" href="/fav.ico"/>
+		<link rel="shortcut icon" type="image/ico" href="<?php echo '//'.$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']); ?>/fav.ico"/>
 
 		<!-- Stylesheet -->
 		<link rel="stylesheet" href="<?php echo '//'.$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF']); ?>/dist/css/site.css" type="text/css"/>
@@ -56,21 +56,18 @@
 		<header>
 			<div class="container">
 				<div class="row intro-nav">
-					<div class="col-sm-6">
-						<h2 class="site-title">Jaz Halloran</h2>
-					</div>
-					<div class="col-sm-6">
-						<h2 class="info-button"><span class="the-button">Info</span></h2>
-					</div>
-				</div>
-				<div class="row info-reveal">
 					<div class="col-sm-12">
-						<h2 class="alt-h2">Graphic Design, <span class="show-small"><br/></span>Art Direction</h2>
-						<!-- <h2 class="alt-h2">M8–222 <span class="show-small"><br/></span>E Georgia St, <span class="show-small"><br/></span>Vancouver, <span class="show-small"><br/></span>V6A 1Z7</h2> -->
-						<h2 class="alt-h2">M8–222 E Georgia St, Vancouver, BC</h2>
+						<h2 class="site-title alt-h2">Jaz Halloran</h2>
+						<h2 class="alt-h2">
+							Graphic Design 
+							<br/>Art Direction
+						</h2>
+						<h2 class="alt-h2">
+							M8–222 E Georgia St 
+							<br/>Vancouver, BC
+						</h2>
+						<h2 class="alt-h2"><a href="mailto:design@jazhalloran.ca">design@jazhalloran.ca</a></h2>
 						<h2 class="alt-h2">604-230-3593</h2>
-						<h2 class="alt-h2">design@jazhalloran.ca</h2>
-						<!-- <h2 class="alt-h2"><i>New website coming soon</i></h2> -->
 					</div>
 				</div>
 			</div>
