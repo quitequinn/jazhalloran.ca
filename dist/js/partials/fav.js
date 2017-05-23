@@ -38,7 +38,5 @@ window.setInterval(function(){
   	badge = 1
   	image = document.getElementById('fav2');
   }
-  console.log(badge);
   favicon.image(image);
-
 }, 300);
